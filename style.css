@@ -24,7 +24,8 @@ body {
     justify-content: space-evenly;
     flex-wrap: wrap;
     padding: 5px;
-    border: 1px solid black;
+    border: 0.5px solid black;
+    border-bottom: 1px solid black;
 }
 
 button {
@@ -52,4 +53,16 @@ button:hover {
 .grid-square {
     flex: 1 1 0;
     border: 0.5px solid black;
+}
+
+.start-node {
+    background: #0011ff;
+}
+
+.end-node {
+    background: #ff0000;
+}
+
+.obstacle-node {
+    background: #000000;
 }
